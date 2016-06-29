@@ -6,6 +6,7 @@ cp previousOutput/terraform.tfstate .
 
 echo "Fetching terraform"
 wget https://releases.hashicorp.com/terraform/0.6.16/terraform_0.6.16_linux_386.zip
+apt-get install unzip
 unzip terraform_0.6.16_linux_386.zip
 
 ./terraform apply
