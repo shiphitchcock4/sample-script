@@ -12,4 +12,4 @@ unzip terraform_0.6.16_linux_386.zip
 ./terraform apply -var-file=aws.tfvars GET/sample-script/sample-script
 
 echo "Copy state output to output directory"
-cp terraform.tfstate output/
+cp GET/sample-script/sample-script/terraform.tfstate output/
