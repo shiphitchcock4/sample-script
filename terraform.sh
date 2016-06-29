@@ -1,5 +1,5 @@
 echo "Extracting aws creds"
-node extractAWSCreds.js $(cat GET/aws/aws.json) >  aws.tfvars
+node GET/sample-script/sample-script/extractAWSCreds.js $(cat GET/env-aws/aws.json) >  aws.tfvars
 
 echo "Copying previous state file"
 cp previousOutput/terraform.tfstate .
