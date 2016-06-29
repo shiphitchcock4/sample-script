@@ -9,7 +9,7 @@ wget https://releases.hashicorp.com/terraform/0.6.16/terraform_0.6.16_linux_386.
 apt-get install unzip
 unzip terraform_0.6.16_linux_386.zip
 
-./terraform apply
+./terraform apply -var-file=aws.tfvars GET/sample-script/sample-script
 
 echo "Copy state output to output directory"
 cp terraform.tfstate output/
