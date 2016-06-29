@@ -2,7 +2,7 @@ echo "Extracting aws creds"
 node GET/sample-script/sample-script/extractAWSCreds.js $(cat GET/env-aws/aws.json) >  aws.tfvars
 
 echo "Copying previous state file"
-cp previousOutput/terraform.tfstate .
+cp previousOutput/terraform.tfstate GET/sample-script/sample-script
 
 echo "Fetching terraform"
 wget https://releases.hashicorp.com/terraform/0.6.16/terraform_0.6.16_linux_386.zip
