@@ -1,2 +1,2 @@
-echo ' ---> Hello rr1test'
+echo ' ---> Hello rr1testing scriptedit'
 #sleep 1m
