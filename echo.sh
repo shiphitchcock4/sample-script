@@ -1,3 +1,3 @@
 echo ' ---> Hello rr1testing scriptedit'
-echo ' ---> testingtest1!!||ptes1twetrepo34re11'
+echo ' ---> testingtest1!!||pthy1'
 #sleep 2m
