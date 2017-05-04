@@ -12,6 +12,8 @@ env:
   
 build:
   ci:
+    - node --version
+    - echo $PULL_REQUEST_REPO_FULL_NAME 
     - echo "hello world"
     - echo "$COMMITER"
     - echo "$foo"  
